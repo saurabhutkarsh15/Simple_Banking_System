@@ -36,7 +36,7 @@ All account information is stored in a file, provding data persistance between p
 ## Test Cases :-
 The project was tetsed on the the following four testcases -->
     1. Normal account creation.
-        [TestCase 1](screenshots/testcase1 .png)
+        ![TestCase 1](screenshots/testcase1.png)
     2. Minimum balance withdrawal.
         [TestCase 2](screenshots/testcase2.png)
     3. Invakid transfer of the money.
