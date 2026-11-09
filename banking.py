@@ -60,7 +60,7 @@ def transfer_money(account_info):
     reciever_acc = int(input("Enter reciever acount number: "))
     sender_acc = int(input("Enter sender account number: "))
     if reciever_acc not in account_info or sender_acc not in account_info:
-        print("Either bot or any one of the account doesn't exist.\n")
+        print("Either both or any one of the account doesn't exist.\n")
         return
     if sender_acc == reciever_acc:
         print("Money can't be transferred to the sane account.\n")
